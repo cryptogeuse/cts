@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Cts
+Comment=Cts P2P Cryptocurrency
+Comment[fr]=Cts, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Cts, eşten eşe kriptografik sanal para birimi
+Exec=cts-qt %u
+Terminal=false
+Type=Application
+Icon=cts128
+MimeType=x-scheme-handler/cts;
+Categories=Office;Finance;

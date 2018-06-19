@@ -1,0 +1,26 @@
+# /etc/conf.d/ctsd: config file for /etc/init.d/ctsd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/cts/cts.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/ctsd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/ctsd.pid"
+
+# Where to write ctsd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/ctsd"
+
+# User and group to own ctsd process
+#BITCOIND_USER="cts"
+#BITCOIND_GROUP="cts"
+
+# Path to ctsd executable
+#BITCOIND_BIN="/usr/bin/ctsd"
+
+# Nice value to run ctsd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
